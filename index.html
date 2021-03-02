@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <title>Manipulate the DOM with Insertion</title>
+        <script src="manipulation.js"></script>
+    </head>
+    <body>
+        <h1>Manipulating the DOM</h1>
+
+        <p>After completing the required reading for Week 5, I have decided to implement the topic of DOM manipulation on this webpage.
+            To do so, we are going to create a To-Do list. This will showcase DOM manipulation by <b>inserting Nodes</b> into the DOM.</p>
+
+        <div class="todo">
+            <h2>Insert Items into To-Do List Showcase</h2>
+            <input type="text" id="item" placeholder="Type here">
+            <button type="button" onclick="insertItem()">Insert Item</button>
+            <h3>To-Do List</h3>
+            <ul></ul>       <!--Empty unordered list to be manipulated-->
+        </div>
+
+        <p>Above, you are able to manipulate the DOM by inserting new Nodes into it. You start with an empty to do list which you can
+            then populate with any number of tasks. The list will continue to get bigger and bigger as long as you insert new tasks.</p>
+    </body>
+</html>

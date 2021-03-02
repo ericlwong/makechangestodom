@@ -1,0 +1,15 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.todo {
+    text-align: center;
+}
+
+.todo ul {
+    list-style: inside;
+}
